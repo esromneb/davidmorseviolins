@@ -16,7 +16,7 @@
 </tr>
 <tr>
   <td width="190" height="1%" valign="top">
-<img src="images/spacer" height="10"><br>
+<img src="images/spacer.gif" height="10"><br>
 <span class="contact">
     3235 Paper Mill Rd<br>
     Soquel, CA 95073<br>

@@ -3,7 +3,7 @@
 <table border="0">
 <tr>
 <td>
-<img src="images/spacer" width="105" height="1">
+<img src="images/spacer.gif" width="105" height="1">
 </td>
 <td>
 <div align="center">
