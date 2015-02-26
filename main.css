@@ -1,0 +1,39 @@
+body {
+  color: #94ADD6;
+  background-color: #000000
+}
+a:link {
+  color: #94ADD6
+}
+a:visited {
+  color: #94ADD6
+}
+.contact {
+  font-family: Comic Sans MS;
+
+}
+.presentation {
+  font-family: Comic Sans MS;
+}
+a.presentation {
+  font-size: 20pt;
+}
+
+.instruments {
+  font-size: 16pt;
+}
+
+hr {
+  border: 0;
+  color: #94ADD6;
+  background-color: #94ADD6;
+  height: 1px;
+}
+
+.gallery {
+  line-height: 3
+}
+
+a.gallery {
+  font-size: 20pt;
+}
