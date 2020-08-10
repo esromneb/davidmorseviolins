@@ -1,6 +1,5 @@
 <?
 include("include/include.php");
-//loadPage( "content", "right", "page title");
-loadPage("stringsarticle.tpl", "", "Strings Article", "");
+loadPage("stringsarticle.tpl", "", "Strings Article", 4);
 
 ?>
