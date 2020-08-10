@@ -12,6 +12,7 @@
 <a href="kutastha.php" class="gallery">Violin "Kutastha"</a><br>
 <a href="fiemme.php" class="gallery">Violin "Fiemme"</a><br>
 <a href="epiphany.php" class="gallery">Violin "Epiphany"</a><br>
+<a href="akasha.php" class="gallery">Violin "Akasha"</a><br>
 </td>
 </tr>
 </table>
