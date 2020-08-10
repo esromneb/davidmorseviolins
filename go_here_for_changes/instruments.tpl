@@ -14,13 +14,13 @@
 
       Violin named: Fiemme, being shown at David Morse's Violin Shop in Santa Cruz, CA.<br>
       Telephone number: 831-464-3000<br>
-      Italian spruce top.  Two piece Yugoslavian maple back and sides.
+      Italian spruce top.  Two piece Yugoslavian maple back and sides. &nbsp;&nbsp;<a href="fiemme.php">Click for Photos</a>
       <br>
       <hr class="instruments">
 
       Violin named: Kutastha, being shown at David Morse's Violin Shop in Santa Cruz, CA.<br>
       Telephone number: 831-464-3000<br>
-      Two piece Yugoslavian maple back and sides.  Italian spruce top.
+      Two piece Yugoslavian maple back and sides.  Italian spruce top. &nbsp;&nbsp;<a href="kutastha.php">Click for Photos</a>
       <br>
       <hr class="instruments">
 
@@ -32,13 +32,13 @@
 
       Violin named: Akasha, being shown at David Morse's Violin Shop in Santa Cruz, CA.<br>
       Telephone number: 831-464-3000<br>
-      Bosnian one piece maple back. Italian spruce top.
+      Bosnian one piece maple back. Italian spruce top. &nbsp;&nbsp;<a href="akasha.php">Click for Photos</a>
       <br>
       <hr class="instruments">
 
       Violin named: Epiphany, being shown at David Morse's Violin Shop in Santa Cruz, CA.<br>
       Telephone number: 831-464-3000<br>
-      Bosnian one piece back and sides.  Italian spruce top.
+      Bosnian one piece back and sides.  Italian spruce top. &nbsp;&nbsp;<a href="epiphany.php">Click for Photos</a>
       <br>
       <hr class="instruments">
 
