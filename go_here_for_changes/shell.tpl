@@ -10,7 +10,7 @@
   <td colspan="2" height="60">
     <a href="index.php"><img border="0" src="images/banner.gif"></a>
   </td>
-  <td rowspan="2">
+  <td rowspan="2" valign="top"> <!-- Adding valign here to make right work (front pg only) -->
 {right}
   </td>
 </tr>
