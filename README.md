@@ -18,7 +18,7 @@ Index loads weird in two ways:
 * second is also passes empty string to the last argument of loadPage
   * all other loads pass a number to the last argument of the fn
 
-```
-loadPage("index.tpl", "index_right.tpl", "Home", $mynull);
-loadPage("gallery.tpl", "", "Gallery", 2);
+```php
+loadPage("index.tpl", "index_right.tpl", "Home", $mynull);    // index
+loadPage("gallery.tpl", "", "Gallery", 2);                    // other pages
 ```
