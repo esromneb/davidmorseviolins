@@ -9,3 +9,16 @@ Because flash player is removed from all browsers I am using `core.ruffle.7f6d21
 # Left menu font
 I may have lost the left menu source photoshop file, as a result I don't know which font the text is.  I suppose I could do some node js trick to render a new one and make them consistent as well as expandible without opeing photoshop?
 
+
+
+# Files
+
+Index loads weird in two ways:
+* first it's the only page to put a 2nd argument, all other pages use "".
+* second is also passes empty string to the last argument of loadPage
+  * all other loads pass a number to the last argument of the fn
+
+```
+loadPage("index.tpl", "index_right.tpl", "Home", $mynull);
+loadPage("gallery.tpl", "", "Gallery", 2);
+```
