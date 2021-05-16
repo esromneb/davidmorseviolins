@@ -1,5 +1,5 @@
 # Are you looking for a new, high quality violin?
-http://www.davidmorseviolins.com
+See David Morse Violins here: http://www.davidmorseviolins.com . High quality hand crafted.
 
 # Presentation
 The presentation was originally designed in flash. I may have lost the original source flash flie.
