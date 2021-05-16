@@ -45,7 +45,7 @@ See Victor Romasevich play David's Violin: <a href="https://www.sfsymphonyplus.o
 
   <div class="child child-2">
 <br><br><br>
-  See Victor Romasevich play David's Violin, in: <a href="https://www.sfsymphonyplus.org/videos/zoltan-kodaly-duo-for-violin-and-cello-opus-7">ZOLTAN KODALY</a>.
+  <a href="https://www.sfsymphonyplus.org/videos/zoltan-kodaly-duo-for-violin-and-cello-opus-7">Victor Romasevich plays David's Violin, ZOLTAN KODALY Op 7</a>
 
     <style contenteditable="">
 .child-2 {
