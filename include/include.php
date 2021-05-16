@@ -10,6 +10,10 @@
  *both of them get loaded from templates, which get passed to loadPage()
  *the title also gets passed in, and is prefixed
  */
+
+///
+/// $content
+///
 include("class.TemplatePower.inc.php");
 function loadPage($content, $right="", $title, $menuNum) {
   $title_prefix = "David Morse Violins - ";
