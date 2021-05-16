@@ -45,6 +45,7 @@ function loadPage($content, $right="", $title, $menuNum) {
     "endorsements.php"
   );
   
+  // false for the index page only
   if(isset($menuNum)) {
     $menuImg[$menuNum] = "home".$menuNum.".gif";
     $menuA[$menuNum] = "index.php";

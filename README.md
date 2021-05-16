@@ -15,10 +15,19 @@ I may have lost the left menu source photoshop file, as a result I don't know wh
 
 Index loads weird in two ways:
 * first it's the only page to put a 2nd argument, all other pages use "".
-* second is also passes empty string to the last argument of loadPage
+* second is also passes unset variable to the last argument of loadPage
   * all other loads pass a number to the last argument of the fn
+* a 3rd way is flight only, it passes empty string to $menuNum argument
+
+```php
+// signature
+function loadPage($content, $right="", $title, $menuNum) {
+```
 
 ```php
 loadPage("index.tpl", "index_right.tpl", "Home", $mynull);    // index
 loadPage("gallery.tpl", "", "Gallery", 2);                    // other pages
+
+loadPage("flight.tpl", "flight_right.tpl", "Flight", "");     // flight only
+
 ```
