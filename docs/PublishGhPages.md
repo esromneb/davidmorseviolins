@@ -4,7 +4,11 @@ To publish github pages, get to the version you want to publish. Make sure the d
 
 Run inside docker
 ```bash
-OPT3=1 make copy wasm
+make
+```
+
+Run outside
+```bash
 git symbolic-ref HEAD refs/heads/gh-pages
 git reset
 rm .gitignore
@@ -40,3 +44,5 @@ git commit -m "First gh-pages"
 git push -u origin gh-pages
 git checkout master
 ```
+
+Then go to https://github.com/esromneb/davidmorseviolins/settings/pages
