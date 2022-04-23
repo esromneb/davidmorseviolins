@@ -1,10 +1,8 @@
 # Publish Gh Pages
-To publish github pages, get to the version you want to publish.
+To publish github pages, get to the version you want to publish. Make sure the docker is created.
 
-* Edit `proxy_controls.html` and set `doPublicRender` to true.
-* Verify `Makefile` has `O3`
 
-Run
+Run inside docker
 ```bash
 OPT3=1 make copy wasm
 git symbolic-ref HEAD refs/heads/gh-pages
