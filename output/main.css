@@ -1,0 +1,78 @@
+body {
+  color: #94ADD6;
+  background-color: #000000
+}
+a:link {
+  color: #94ADD6
+}
+a:visited {
+  color: #94ADD6
+}
+.contact {
+  font-family: Comic Sans MS;
+
+}
+.presentation {
+  font-family: Comic Sans MS;
+}
+a.presentation {
+  font-size: 20pt;
+}
+
+.instruments {
+  font-size: 16pt;
+}
+
+hr {
+  border: 0;
+  color: #94ADD6;
+  background-color: #94ADD6;
+  height: 1px;
+}
+
+.gallery {
+  line-height: 3
+}
+
+a.gallery {
+  font-size: 20pt;
+}
+
+.myfloat1 {
+  padding: .5em;
+  float: left;
+}
+
+/* ----------------------------------- */
+
+.style1 {
+  display: block;
+  /*font: 700 14px/1.5 MonoLisa, "Operator Mono", Monospace;*/
+  white-space: pre-wrap;
+  padding: 1rem;
+}
+
+.wrap {
+  /*border: 5px solid lightcoral;*/
+  padding: 1rem;
+  /*height: 50vh;*/
+}
+
+.wrap > style {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*body {
+  margin: 2rem;
+}*/
+
+* {
+  box-sizing: border-box;
+}
+
+.child {
+  /*background: darkorange;*/
+}
