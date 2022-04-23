@@ -46,3 +46,6 @@ git checkout master
 ```
 
 Then go to https://github.com/esromneb/davidmorseviolins/settings/pages
+
+# see also
+* https://jiafulow.github.io/blog/2020/07/09/create-gh-pages-branch-in-existing-repo/
