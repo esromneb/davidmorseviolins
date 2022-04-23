@@ -5,15 +5,16 @@ To publish github pages, get to the version you want to publish. Make sure the d
 Run inside docker
 ```bash
 make
+rm -rf 1 2 docs go_here_for_changes images include
+find . -mindepth 1 -maxdepth 1 ! -name "output" -delete
 ```
 
 Run outside
 ```bash
 git symbolic-ref HEAD refs/heads/gh-pages
 git reset
-rm .gitignore
 git pull
-git add out
+git add output
 ```
 
 Commit from here
@@ -23,8 +24,7 @@ To get back to master:
 
 ```bash
 git symbolic-ref HEAD refs/heads/master
-git reset
-git checkout .gitignore
+git reset --hard
 ```
 
 
