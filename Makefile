@@ -13,7 +13,7 @@ build:
 	php presentation.php > output/presentation.html
 	mkdir -p output/images
 	cp images/* output/images/
-	cp *html *js *wasm output/
+	cp *html *js *wasm *css output/
 	cp david-morse-violin-audio-presentation.swf output/
 
 clean:
