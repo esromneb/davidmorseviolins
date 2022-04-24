@@ -22,6 +22,7 @@ To get back to master:
 
 ```bash
 git symbolic-ref HEAD refs/heads/master
+sudo chown -R ${USER}: .
 git reset --hard
 ```
 
