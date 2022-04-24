@@ -47,5 +47,11 @@ git checkout master
 
 Then go to https://github.com/esromneb/davidmorseviolins/settings/pages
 
+
+# Notes
+* We can use a subfolder, but only if it's `docs`. it's possible there are other valid ones but who cares. I moved my `docs` to `doc` and then rewrite to so `output` goes into `docs`
+
+
+
 # see also
 * https://jiafulow.github.io/blog/2020/07/09/create-gh-pages-branch-in-existing-repo/

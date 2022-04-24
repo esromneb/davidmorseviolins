@@ -6,15 +6,15 @@ all: build
 
 
 build:
-	rm -rf output
-	mkdir output
-	php index.php > output/index.html
-	php instruments.php > output/instruments.html
-	php presentation.php > output/presentation.html
-	mkdir -p output/images
-	cp images/* output/images/
-	cp *html *js *wasm *css output/
-	cp david-morse-violin-audio-presentation.swf output/
+	rm -rf docs
+	mkdir docs
+	php index.php > docs/index.html
+	php instruments.php > docs/instruments.html
+	php presentation.php > docs/presentation.html
+	mkdir -p docs/images
+	cp images/* docs/images/
+	cp *html *js *wasm *css docs/
+	cp david-morse-violin-audio-presentation.swf docs/
 
 clean:
-	rm -rf output
+	rm -rf docs
