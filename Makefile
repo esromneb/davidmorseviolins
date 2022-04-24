@@ -1,4 +1,4 @@
-.PHONY: all build clean
+.PHONY: all build clean deleteall
 
 all: build
 
@@ -15,6 +15,10 @@ build:
 	cp images/* docs/images/
 	cp *html *js *wasm *css docs/
 	cp david-morse-violin-audio-presentation.swf docs/
+
+deleteall:
+	rm -rf 1 2 docs go_here_for_changes images include doc
+	find . -mindepth 1 -maxdepth 1 ! -name "docs" -delete
 
 clean:
 	rm -rf docs
