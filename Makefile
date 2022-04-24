@@ -16,7 +16,7 @@ build:
 	cp *html *js *wasm *css docs/
 	cp david-morse-violin-audio-presentation.swf docs/
 
-deleteall:
+delete:
 	rm -rf 1 2 docs go_here_for_changes images include doc
 	find . -mindepth 1 -maxdepth 1 ! -name "docs" -delete
 

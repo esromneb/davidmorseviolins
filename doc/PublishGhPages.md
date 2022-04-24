@@ -4,7 +4,7 @@ To publish github pages, get to the version you want to publish. Make sure the d
 
 Run inside docker
 ```bash
-make build deleteall
+make build delete
 ```
 
 Run outside
