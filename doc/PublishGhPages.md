@@ -9,10 +9,13 @@ make build delete
 
 Run outside
 ```bash
+sudo chown -R ${USER}: .
 git symbolic-ref HEAD refs/heads/gh-pages
 git reset
 git pull
+git checkout docs/CNAME
 git add .
+git status
 ```
 
 Commit from here
