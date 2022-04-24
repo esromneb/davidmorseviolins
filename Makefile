@@ -9,7 +9,7 @@ build:
 	rm -rf docs
 	mkdir docs
 	php index.php > docs/index.html
-	php instruments.php > docs/instruments.html
+	php instruments.php > docs/instruments.php
 	php presentation.php > docs/presentation.html
 	mkdir -p docs/images
 	cp images/* docs/images/
