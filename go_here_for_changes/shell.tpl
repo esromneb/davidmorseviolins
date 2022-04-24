@@ -21,7 +21,7 @@
     3235 Paper Mill Rd<br>
     Soquel, CA 95073<br>
     Phone (831) 464 - 3000<br>
-    <a href="mailto:david@davidmorseviolins.com">Contact Me</a>
+    <a href="mailto:davidmorseviolins@gmail.com">Contact Me</a>
     </span><br>
 <img src="images/spacer.gif" width="1" height="10">
     <img src="images/spacer.gif" width="1" height="20"><br>
