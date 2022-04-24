@@ -10,8 +10,21 @@ build:
 	mkdir docs
 	php index.php > docs/index.php.html
 	php index.php > docs/index.html
+	#
+	php akasha.php > docs/akasha.php.html
+	php davidInShop.php > docs/davidInShop.php.html
+	php endorsements.php > docs/endorsements.php.html
+	php epiphany.php > docs/epiphany.php.html
+	php gallery.php > docs/gallery.php.html
 	php instruments.php > docs/instruments.php.html
+	php interview.php > docs/interview.php.html
 	php presentation.php > docs/presentation.php.html
+	php spirito.php > docs/spirito.php.html
+	php stream.php > docs/stream.php.html
+	php stringsarticle.php > docs/stringsarticle.php.html
+	php fiemme.php > docs/fiemme.php.html
+	php flight.php > docs/flight.php.html
+	php kutastha.php > docs/kutastha.php.html
 	mkdir -p docs/images
 	cp images/* docs/images/
 	cp *html *js *wasm *css docs/
