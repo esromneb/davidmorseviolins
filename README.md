@@ -34,3 +34,9 @@ loadPage("flight.tpl", "flight_right.tpl", "Flight", "");     // flight only
 
 # GH Pages
 https://esromneb.github.io/davidmorseviolins
+
+# Links
+* https://davidmorseviolins.com
+* https://www.davidmorseviolins.com
+* http://davidmorseviolins.com
+* http://www.davidmorseviolins.com
