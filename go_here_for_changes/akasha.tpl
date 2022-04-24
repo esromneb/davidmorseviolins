@@ -9,7 +9,7 @@
 <td width="220">&nbsp;
 </td>
 <td>
-<img src="images/DSC_1104.JPG" border="0" style="width: 380px;">
+<a href="images/DSC_1104.JPG"><img src="images/DSC_1104.JPG" border="0" style="width: 380px;"></a>
 </td>
 </tr>
 
@@ -17,7 +17,7 @@
 <td width="220">&nbsp;
 </td>
 <td>
-<img src="images/DSC_1115.JPG" border="0" style="width: 380px;">
+<a href="images/DSC_1115.JPG"><img src="images/DSC_1115.JPG" border="0" style="width: 380px;"></a>
 </td>
 </tr>
 
@@ -25,14 +25,14 @@
 <td width="220">&nbsp;
 </td>
 <td>
-<img src="images/DSC_1121.JPG" border="0" style="width: 380px;">
+<a href="images/DSC_1121.JPG"><img src="images/DSC_1121.JPG" border="0" style="width: 380px;"></a>
 </td>
 </tr>
 <tr>
 <td width="220">&nbsp;
 </td>
 <td>
-<img src="images/DSC_1128.JPG" border="0" style="width: 380px;">
+<a href="images/DSC_1128.JPG"><img src="images/DSC_1128.JPG" border="0" style="width: 380px;"></a>
 </td>
 </tr>
 
