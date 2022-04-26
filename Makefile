@@ -17,6 +17,9 @@ foo:
 
 
 
+# REMINT
+# php interview.php > docs/interview${EXTENSION}
+
 build:
 	rm -rf docs
 	mkdir docs
@@ -29,7 +32,6 @@ build:
 	php epiphany.php > docs/epiphany${EXTENSION}
 	php gallery.php > docs/gallery${EXTENSION}
 	php instruments.php > docs/instruments${EXTENSION}
-	php interview.php > docs/interview${EXTENSION}
 	php presentation.php > docs/presentation${EXTENSION}
 	php spirito.php > docs/spirito${EXTENSION}
 	php stream.php > docs/stream${EXTENSION}

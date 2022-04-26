@@ -31,27 +31,41 @@ function loadPage($content, $right="", $title, $menuNum) {
   }
   
   
+    // "interview.gif", // REMINT
   $menuImg = array(
-    "presentation.gif",
-    "instruments.gif",
-    "gallery.gif",
-    "interview.gif",
-    "stringsarticle.jpg",
-    "endorsements.gif"
+    "presentation.gif",   // 0
+    "instruments.gif",    // 1
+    "gallery.gif",        // 2
+    "stringsarticle.jpg", // 3
+    "endorsements.gif"    // 4
   );
 
+    // "interview.php", // REMINT
   $menuA = array(
-    "presentation.php",
-    "instruments.php",
-    "gallery.php",
-    "interview.php",
-    "stringsarticle.php",
-    "endorsements.php"
+    "presentation.php",   // 0
+    "instruments.php",    // 1
+    "gallery.php",        // 2
+    "stringsarticle.php", // 3
+    "endorsements.php"    // 4
   );
   
   // false for the index page only
   if(isset($menuNum)) {
-    $menuImg[$menuNum] = "home".$menuNum.".gif";
+
+    // start with the same value
+    $adjustHome = $menuNum;
+
+    // REMINT
+    if( $menuNum >= 3 ) {
+      // reorder the home replacement gif by +1 for items below the place
+      // where interview was
+      // this is because each menu has a unique home gif paired with it
+      // and the removal of interview upsets the numbering
+
+      $adjustHome = $menuNum + 1;
+    }
+
+    $menuImg[$menuNum] = "home".$adjustHome.".gif";
     $menuA[$menuNum] = "index.php";
   }
   
@@ -70,7 +84,9 @@ function loadPage($content, $right="", $title, $menuNum) {
     "threeA" => $menuA[2],
     "fourA" => $menuA[3],
     "fiveA" => $menuA[4],
-    "sixA" => $menuA[5],
+    // "sixA" => $menuA[5], // REMINT
+    "debugline" => "",
+    // "debugline" => "menuNum = $menuNum, adjustHome = $adjustHome",
     ));
   $shell->printToScreen();
 }

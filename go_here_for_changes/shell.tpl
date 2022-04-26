@@ -4,7 +4,7 @@
 <title>{title}</title>
 <link rel=stylesheet href="main.css">
 </head>
-<body>
+<body>{debugline}
 <table border="0" width="1000">
 <tr>
   <td colspan="2" height="60">
@@ -34,8 +34,6 @@
     <a href="{fourA}"><img src="images/{fourImg}" border="0"></a><br>
     <img src="images/spacer.gif" width="1" height="20"><br>
     <a href="{fiveA}"><img src="images/{fiveImg}" border="0"></a><br>
-    <img src="images/spacer.gif" width="1" height="20"><br>
-    <a href="{sixA}"><img src="images/{sixImg}" border="0"></a><br>
     <img src="images/spacer.gif" width="1" height="20"><br>
   </td>
   <td valign="top">
