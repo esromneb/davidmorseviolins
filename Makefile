@@ -4,8 +4,10 @@ all: build
 
 
 ifdef local
-EXTENSION=.php
+#LOCAL
+EXTENSION=.html
 else
+# PRODUCTION
 EXTENSION=.php.html
 endif
 
@@ -18,23 +20,23 @@ foo:
 build:
 	rm -rf docs
 	mkdir docs
-	php index.php > docs/index.php.html
+	php index.php > docs/index${EXTENSION}
 	php index.php > docs/index.html
 	#
-	php akasha.php > docs/akasha.php.html
-	php davidInShop.php > docs/davidInShop.php.html
-	php endorsements.php > docs/endorsements.php.html
-	php epiphany.php > docs/epiphany.php.html
-	php gallery.php > docs/gallery.php.html
-	php instruments.php > docs/instruments.php.html
-	php interview.php > docs/interview.php.html
-	php presentation.php > docs/presentation.php.html
-	php spirito.php > docs/spirito.php.html
-	php stream.php > docs/stream.php.html
-	php stringsarticle.php > docs/stringsarticle.php.html
-	php fiemme.php > docs/fiemme.php.html
-	php flight.php > docs/flight.php.html
-	php kutastha.php > docs/kutastha.php.html
+	php akasha.php > docs/akasha${EXTENSION}
+	php davidInShop.php > docs/davidInShop${EXTENSION}
+	php endorsements.php > docs/endorsements${EXTENSION}
+	php epiphany.php > docs/epiphany${EXTENSION}
+	php gallery.php > docs/gallery${EXTENSION}
+	php instruments.php > docs/instruments${EXTENSION}
+	php interview.php > docs/interview${EXTENSION}
+	php presentation.php > docs/presentation${EXTENSION}
+	php spirito.php > docs/spirito${EXTENSION}
+	php stream.php > docs/stream${EXTENSION}
+	php stringsarticle.php > docs/stringsarticle${EXTENSION}
+	php fiemme.php > docs/fiemme${EXTENSION}
+	php flight.php > docs/flight${EXTENSION}
+	php kutastha.php > docs/kutastha${EXTENSION}
 	mkdir -p docs/images
 	cp images/* docs/images/
 	cp *html *js *wasm *css docs/
