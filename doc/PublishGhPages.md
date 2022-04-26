@@ -57,3 +57,18 @@ Then go to https://github.com/esromneb/davidmorseviolins/settings/pages
 
 # see also
 * https://jiafulow.github.io/blog/2020/07/09/create-gh-pages-branch-in-existing-repo/
+
+
+# Make a local build
+```bash
+local=1 make build makelocal
+```
+
+And then from the outside, run python in a new window:
+
+```bash
+cd docs
+python3 -m http.server
+```
+
+Then open http://localhost:8000/

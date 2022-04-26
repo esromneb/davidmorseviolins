@@ -1,10 +1,10 @@
-.PHONY: all build clean deleteall foo
+.PHONY: all build clean deleteall foo makelocal
 
 all: build
 
 
 ifdef local
-#LOCAL
+# LOCAL
 EXTENSION=.html
 else
 # PRODUCTION
@@ -48,3 +48,6 @@ delete:
 
 clean:
 	rm -rf docs
+
+makelocal:
+	find docs -type f -exec sed -i 's/.php/.html/g' {} \;
