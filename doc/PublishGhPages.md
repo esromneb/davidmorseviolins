@@ -64,6 +64,12 @@ Then go to https://github.com/esromneb/davidmorseviolins/settings/pages
 local=1 make build makelocal
 ```
 
+or
+
+```bash
+find . | entr -d -s "local=1 make build makelocal"
+```
+
 And then from the outside, run python in a new window:
 
 ```bash
@@ -72,3 +78,5 @@ python3 -m http.server
 ```
 
 Then open http://localhost:8000/
+
+
