@@ -1,7 +1,17 @@
-.PHONY: all build clean deleteall
+.PHONY: all build clean deleteall foo
 
 all: build
 
+
+ifdef local
+EXTENSION=.php
+else
+EXTENSION=.php.html
+endif
+
+
+foo:
+	@echo ${EXTENSION}
 
 
 
