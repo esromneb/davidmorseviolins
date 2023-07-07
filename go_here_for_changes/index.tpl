@@ -3,7 +3,6 @@
 <!-- 
 <br>
 <span class="myfloat1">
-See Victor Romasevich play David's Violin: <a href="https://www.sfsymphonyplus.org/videos/zoltan-kodaly-duo-for-violin-and-cello-opus-7">ZOLTAN KODALY</a>.
 </span>
 
  -->
@@ -44,7 +43,6 @@ See Victor Romasevich play David's Violin: <a href="https://www.sfsymphonyplus.o
 
   <div class="child child-2">
 <br><br><br>
-  <a href="https://www.sfsymphonyplus.org/videos/zoltan-kodaly-duo-for-violin-and-cello-opus-7">Victor Romasevich plays David's Violin, ZOLTAN KODALY Op 7</a>
 
     <style contenteditable="">
 .child-2 {
