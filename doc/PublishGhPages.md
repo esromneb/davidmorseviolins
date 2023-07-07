@@ -18,7 +18,7 @@ git add .
 git status
 ```
 
-Commit from here
+Commit AND push from here
 
 
 To get back to master:
